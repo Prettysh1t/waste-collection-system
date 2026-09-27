@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment
+.env
+.env.local
+
+# Database
+*.db
+*.db-journal
+prisma/dev.db
+
+# Editor
+.vscode/
+.idea/
+*.log
+
+# OS
+.DS_Store
